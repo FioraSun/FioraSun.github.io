@@ -21,4 +21,4 @@ Computer-Aided Geometric Design,\
 Isogeometric Analysis,\
 CAD/CAE Integration,\
 Interpolation and Approximation,\
-Deep Learning
+Deep Learning.
