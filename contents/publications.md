@@ -1,5 +1,4 @@
-## Published
-
+#### Published
 
 ## 2024
 - X. Yang, **S. Li**, A. Cao\*, C. Wang\*, Y. Liu, X. Bai, and Q. Niu (2024). Deep Transfer Learning for P-wave Arrival Identification and Automatic Seismic Source Location in Underground Mines. **International Journal of Rock Mechanics and Mining Sciences**. [Paper](https://doi.org/10.1016/j.ijrmms.2024.105888)
