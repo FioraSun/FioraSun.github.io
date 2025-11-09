@@ -1,177 +1,291 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Academic Webpage" />
-    <meta name="author" content="senli1073" />
-    <title id="title"></title>
+<link rel="shortcut icon" href="myIcon.ico">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 
-    <!-- Icon -->
-    <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
+<meta name="keywords" content="Hongmei Kang, USTC, TU Delft, CUHK"> 
+<meta name="description" content="Hongmei Kang&#39;s home page">
+<meta name="google-site-verification" content="yy_3iiS_X6pJdegdwitJMrH0LRLHXwpjrV9RKLXxKjg" />
+<meta name="google-site-verification" content="yy_3iiS_X6pJdegdwitJMrH0LRLHXwpjrV9RKLXxKjg" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css">
+<title>Hongmei Kang&#39;s Homepage</title>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-
-    <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
-        rel="stylesheet" />
-
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
-    <link type="text/css" href="static/css/main.css" rel="stylesheet" />
-
-    <!-- Bootstrap core JS-->
-    <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
-
-    <!-- For Compatability -->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    
-    <!-- Markdown -->
-    <script type="text/javascript" src="static/js/marked.min.js"></script>
-
-    <!-- Mathematics -->
-    <script>
-        // See https://docs.mathjax.org/en/latest/index.html for more details.
-        MathJax = {
-            tex: {
-                packages: {},              // extensions to use
-                inlineMath: [              // start/end delimiter pairs for in-line math
-                    ['$', '$'],
-                    ['\\(', '\\)']
-                ],
-                displayMath: [             // start/end delimiter pairs for display math
-                    ['$$', '$$'],
-                    ['\\[', '\\]']
-                ],
-                processEscapes: false,      // use \$ to produce a literal dollar sign
-                processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
-                processRefs: true,         // process \ref{...} outside of math mode
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,    // pattern for recognizing numbers
-                tags: 'all',              // or 'ams' or 'all'
-                tagSide: 'right',          // side for \tag macros
-                tagIndent: '0.8em',        // amount to indent tags
-                useLabelIds: true,         // use label name rather than tag for ids
-                maxMacros: 10000,          // maximum number of macro substitutions per expression
-                maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
-                // baseURL:                   // URL for use with links to tags (when there is a <base> tag in effect)
-                // (document.getElementsByTagName('base').length === 0) ? '' : String(document.location).replace(/#.*$/, ''),
-                formatError:               // function called when TeX syntax errors occur
-                    (jax, err) => jax.formatError(err)
-            }
-        };
-    </script>
-    <script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    
-    <!-- Core JS-->
-    <script type="text/javascript" src="static/js/scripts.js"></script>
-    <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
-
+  ga('create', 'UA-87320911-1', 'auto');
+  ga('send', 'pageview');
+  <meta name="google-site-verification" content="gX0A9v9FMnhGO_AlZMQdVHrogcF5XpqJvLDkC0UASFY" />
+	
+</script>
 </head>
+<body>
+	<div id="layout-content" style="margin-top:25px">
+		<a href="https://github.com/xiaoyazhai" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#FD6C6C; color:#fff; position: absolute; top: 0; border: 0; right: 0;"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+		<style>
+			.github-corner:hover .octo-arm {
+				animation: octocat-wave 560ms ease-in-out
+			}
 
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-        <div class="container px-5">
-            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
-                <i class="bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#page-top">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
-                    </li>
+			@keyframes octocat-wave {
+				0%,100% {
+					transform: rotate(0)
+				}
 
-                </ul>
-            </div>
-        </div>
-    </nav>
+				20%,60% {
+					transform: rotate(-25deg)
+				}
 
-    <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/background.jpeg');">
-        <div class="top-section-content">
-            <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
-            </div>
-        </div>
-    </section>
-    <!-- Top Section -->
+				40%,80% {
+					transform: rotate(10deg)
+				}
+			}
 
-    <!-- Photo -->
-    <div class="container px-5">
-        <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.png">
-        </div>
-    </div>
-    <!-- Photo -->
-    
-    <!-- Home -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
-        <div class="container px-5">
-            <header>
-                <h2 id="home-subtitle"> </h2>
-                <!-- <span class="bi bi-list"></span> -->
-            </header>
-            <div class="main-body" id="home-md"></div>
-        </div>
-    </section>
-    <!-- Home -->
+			@media (max-width:500px) {
+				.github-corner:hover .octo-arm {
+					animation: none
+				}
 
-    <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
-        <div class="container px-5">
-            <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
-            </header>
-            <div class="main-body" id="publications-md"></div>
+				.github-corner .octo-arm {
+					animation: octocat-wave 560ms ease-in-out
+				}
+			}
+		</style>
 
-        </div>
-    </section>
-    <!-- Publications  -->
+		<table>
+			<tbody>
+				<tr>
+					<td width="670">
+						<div id="toptitle">
+							<h1>Hongmei Kang(康红梅)</h1><h1>
+								<h1>Associate Professor @ SUDA</h1>
+							</h1>
+						</div>
 
-    <!-- Awards -->
-    <!--<section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
-        <div class="container px-5">
-            <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>AWARDS </h2>
-            </header>
-            <div class="main-body" id="awards-md"></div>
-
-        </div>
-    </section>-->
-    <!-- Awards -->
+						<p>
+							Tianyuan Lecture Hall, Second Floor, Tiancizhuang Campus, Soochow University <br />
+							<a href="https://math.suda.edu.cn/">School of Mathematical Sciences</a> <br />
+							<a href="https://www.suda.edu.cn/">Soochow University </a><br />
+							<br />
+							Email: khm@suda.edu.cn
+						</p>
+						<!--<p> <a href="https://scholar.google.com.hk/citations?user=WilK8ngAAAAJ&hl=zh-CN"><img src="./pic/google_scholar.png" height="30px" style="margin-bottom:-3px"></a>
+						<a href="https://github.com/xiaoyazhai"><img src="./pic/github_s.jpg" height="30px" style="margin-bottom:-3px"></a>
+						<a href="https://www.researchgate.net/profile/Xiaoya-Zhai"><img src="./pic/rg.png" height="30px" style="margin-bottom:-3px"></a>
+						<a href="https://www.linkedin.cn/incareer/in/ACoAAChWarAB1QBfIbPEFjI_c-aoFAuNbqQpfcQ"><img src="./pic/LinkedIn_s.png" height="30px" style="margin-bottom:-3px"></a>-->
+						<!--<a href="https://zh-cn.facebook.com/people/Lequan-Yu/100003696557697"><img src="./pic/Facebook_s.png" height="30px" style="margin-bottom:-3px"></a>
+					-->
+						<!--</p>-->
+					</td>
+					<td>
+						<img src="./pic/hongmeikang.png" border="0" width="200" /><br />
+					</td>
+				</tr>
+				<tr>
+				</tr>
+			</tbody>
+		</table>
 
 
-    <!-- Footer-->
-    <footer class="bg-bottom text-center py-5">
-        <div class="container px-5">
-            <div class="text-white-50 small">
-                <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/senli1073">Github</a>
-                <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
-            </div>
-        </div>
-    </footer>
+		<h2>Research Interests</h2>
+		<ul>
+			<li>
+				Isogeomertic analysis(IGA)
+			</li>
+			<li>
+				Computer Aided Geometric Design(CAGD)
+			</li>
+			<li>
+				CAD/CAE Integration
+			</li>
+			<li>
+				Deep Learning
+			</li>
+		</ul>
 
-</body>
+		<!--<p>My research interests include 3D vision, computer graphics, point cloud processing, and deep learning. </p>-->
 
-</html>
+
+		<h2>Education and Work Experience</h2>
+		<ul>
+			<li>Associate Professor, Soochow University, 2017.8–Now.</li>
+			<li>Postdoctoral Fellow, Italian National Research Council, 2016.3–2017.3.</li>
+			<li>Postdoctoral Fellow, University of Science and Technology of China, 2014.8–2017.8.</li>
+			<li>Ph.D, University of Science and Technology of China, 2009.9–2014.6.</li>
+			<li>Bachelor, Jilin University, 2005.9–2009.9.</li>
+		</ul>
+
+		<h2>Publications <!--[<a href="https://scholar.google.com.hk/citations?user=qsJCXFoAAAAJ&hl=en">Google Scholar</a>]--></h2>
+		<!--<p><a href="http://scholar.google.com/citations?user=PeMuphgAAAAJ">My Google Scholar</a></p>-->
+		<h3 id="pub_2023"> 2023</h3>
+		<table id="2023Pulications" width="100%">
+			<tbody>
+
+				<tr>
+					<td width="270">
+						<img src="./indexpics/lmpa_robo.png" width="260px" style="box-shadow: 4px 4px 8px #888" />
+					</td>
+					<td>
+						3D printing low-melting-point alloys integrated soft robots. <br />
+						<p>  </p>
+						Jingchao Jiang, <b>Xiaoya Zhai</b>, Liuchao Jin, Kang Zhang, Zhichao Shen, Qitao Lu, Wei-Hsin Liao*.
+						<p> under review </p>
+						<p>[Paper]</p>
+					</td>
+				</tr>
+				<tr>&nbsp</tr>
+				<tr>&nbsp</tr>
+				<tr>&nbsp</tr>
+
+
+				<tr>
+					<td width="270">
+						<img src="./indexpics/H_voxel_path.png" width="260px" style="box-shadow: 4px 4px 8px #888" />
+					</td>
+					<td>
+						Voxel-based variable width continuous spiral path planning for 3D printing. <br />
+						<p>  </p>
+						Wenpeng Xu, Qiuge Li, Hao Xu, <b>Xiaoya Zhai*</b>, Jingchao Jiang*.
+						<p> under review </p>
+						<p>[Paper]</p>
+					</td>
+				</tr>
+				<tr>&nbsp</tr>
+				<tr>&nbsp</tr>
+				<tr>&nbsp</tr>
+
+				<tr>
+					<td width="270">
+						<img src="./indexpics/shell_TO_IGA.png" width="260px" style="box-shadow: 4px 4px 8px #888" />
+					</td>
+					<td>
+						Density-based isogeometric topology optimization of shell structures. <br />
+						<p>  </p>
+						Qiong Pan, <b>Xiaoya Zhai*</b>, Falai Chen.<br />
+						<p> under review </p>
+						<p>[Paper] [code]</p>
+					</td>
+				</tr>
+				<tr>&nbsp</tr>
+				<tr>&nbsp</tr>
+				<tr>&nbsp</tr>
+
+				<tr>
+					<td width="270">
+						<img src="./indexpics/IGA-MMC.png" width="260px" style="box-shadow: 4px 4px 8px #888" />
+					</td>
+					<td>
+						Isogeometric topology optimization of auxetic materials based on moving morphable components method. <br />
+						<p>  </p>
+						<b>Xiaoya Zhai</b>, Yundong Gai*, Liuchao Jin, Wei-Hsin Liao*, Falai Chen, Ping Hu.<br />
+						<p> under review </p>
+						<p>[Paper] [code]</p>
+					</td>
+				</tr>
+				<tr>&nbsp</tr>
+				<tr>&nbsp</tr>
+				<tr>&nbsp</tr>
+
+				<tr>
+					<td width="270">
+						<img src="./indexpics/3DMicro-gallery.jpg" width="260px" style="box-shadow: 4px 4px 8px #888" />
+					</td>
+					<td>
+						An Optimized, Easy-to-use, Open-source GPU Solver for Large-scale Inverse Homogenization Problems. <br />
+						<p>  </p>
+						Di Zhang, <b>Xiaoya Zhai*</b>, Ligang Liu, Xiao-Ming Fu.<br />
+						<p>  </p>
+						<p>[<a href="https://arxiv.org/abs/2301.08911">arXiv</a>] [<a href="https://github.com/lavenklau/homo3d">code</a>]</p>
+					</td>
+				</tr>
+				<tr>&nbsp</tr>
+				<tr>&nbsp</tr>
+				<tr>&nbsp</tr>
+
+				<tr>
+					<td width="270">
+						<img src="./indexpics/lmpa.png" width="260px" style="box-shadow: 4px 4px 8px #888" />
+					</td>
+					<td>
+						Low-melting-point alloys integrated extrusion additive manufacturing. <br />
+						<p>  </p>
+						Jingchao Jiang<sup>+</sup>, <b>Xiaoya Zhai<sup>+</sup></b>, Kang Zhang<sup>+</sup>, Liuchao Jin, Qitao Lu, Zhichao Shen, Wei-Hsin Liao*.<br />
+						<p> + These authors contributed equally to this work. </p>
+						<p>[<a href="https://www.techrxiv.org/articles/preprint/Low-melting-point_alloys_integrated_extrusion_additive_manufacturing/21993356">TechRxiv</a>]</p>
+					</td>
+				</tr>
+				<tr>&nbsp</tr>
+
+
+				<tr>
+					<td width="270">
+						<img src="./indexpics/tpms_free_support.png" width="260px" style="box-shadow: 4px 4px 8px #888" />
+					</td>
+					<td>
+						Topology Optimization of Self-supporting Porous Structures Based on Triply Periodic Minimal Surfaces. <br />
+						<p>  </p>
+						Nan Zheng, <b>Xiaoya Zhai*</b>, Falai Chen.<br />
+						<p> <em>Computer-Aided Design</em>, 2023.</p>
+
+						<p>[<a href="https://www.sciencedirect.com/science/article/pii/S001044852300074X?via%3Dihub">Paper</a>]</p>
+					</td>
+				</tr>
+				<tr>&nbsp</tr>
+				<tr>&nbsp</tr>
+				<tr>&nbsp</tr>
+
+			</tbody>
+		</table>
+
+		<h3 id="pub_2022"> 2022</h3>
+		<table id="2022Pulications" width="100%">
+			<tbody>
+
+				<tr>
+					<td width="270">
+						<img src="./indexpics/2022_review.png" width="260px" style="box-shadow: 4px 4px 8px #888" />
+					</td>
+					<td>
+						A survey of additive manufacturing reviews. <br />
+						<p>  </p>
+						<b>Xiaoya Zhai</b>, Liuchao Jin, Jingchao Jiang*.<br />
+						<em> Materials Science in Additive Manufacturing, 2022.</em>
+						<p>  </p>
+						<p>[<a href="https://www.researchgate.net/publication/364813379_A_survey_of_additive_manufacturing_reviews">paper</a>]</p>
+					</td>
+				</tr>
+				<tr>&nbsp</tr>
+				<tr>&nbsp</tr>
+				<tr>&nbsp</tr>
+
+				<tr>
+					<td width="270">
+						<img src="./indexpics/worst_no_boundary.png" width="260px" style="box-shadow: 4px 4px 8px #888" />
+					</td>
+					<td>
+						Large-Scale Worst-Case Topology Optimization. <br />
+						<p>  </p>
+						Di Zhang, <b>Xiaoya Zhai*</b>, Xiao-Ming Fu, Heming Wang, Ligang Liu.<br />
+						<em> Computer Graphics Forum (PG), 2022.</em>
+						<p>  </p>
+						<p>[<a href="https://diglib.eg.org/handle/10.1111/cgf14698">paper</a>]</p>
+					</td>
+				</tr>
+				<tr>&nbsp</tr>
+				<tr>&nbsp</tr>
+				<tr>&nbsp</tr>
+
+
+				<tr>
+					<td width="270">
+						<img src="./indexpics/IGA_TO_Stress.png" width="260px" style="box-shadow: 4px 4px 8px #888" />
+					</td>
+					<td> Alternating </td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
